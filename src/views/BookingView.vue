@@ -121,6 +121,10 @@ const deleteBooking = async function () {
         <o-switch v-model="isCheckbale" label="Checkable" />
         <o-switch v-model="isLoading" label="Loading state" />
         <o-switch v-model="isEmpty" label="Empty" />
+        <o-switch v-model="hasMobileCards">
+            Mobile cards
+            <small>(collapsed rows) </small>
+        </o-switch>
     </o-field>
 
     <o-table
